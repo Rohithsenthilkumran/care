@@ -15,13 +15,13 @@ const img = id => {
     'childcare': 'https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=400&h=300&fit=crop',
     'hero': 'https://images.unsplash.com/photo-1531973576160-7125cd663d86?w=800&h=500&fit=crop',
     'g-walk': 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=400&h=300&fit=crop',
-    'g-yoga': '/assets/images/group-of-people-with-arms-raised-in-yoga-position.webp',
+    'g-yoga': 'https://images.unsplash.com/photo-1531973576160-7125cd663d86?w=800&h=500&fit=crop',
     'g-chess': 'https://images.unsplash.com/photo-1529699211952-734e80c4d42b?w=400&h=300&fit=crop',
     'g-music': 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=300&fit=crop',
-    'e-diwali': '${ROOT}assets/images/dee.png',
+    'e-diwali': 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=300&fit=crop',
     'e-music': 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=400&h=300&fit=crop',
     'e-art': 'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=400&h=300&fit=crop',
-    'e-yoga': 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=400&h=300&fit=crop',
+    'e-yoga': 'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=400&h=300&fit=crop',
     'event-placeholder': 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&h=300&fit=crop'
   };
   return images[id] || images['event-placeholder'];
