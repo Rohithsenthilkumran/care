@@ -10,7 +10,7 @@ const img = id => {
     'grocery': 'https://images.unsplash.com/photo-1542838132-92c53300491e?w=400&h=300&fit=crop',
     'cook': 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=400&h=300&fit=crop',
     'doctor': 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&h=300&fit=crop',
-    'house': 'assets\images\360_F_75313743_1OvzjuLMZRbRwMGuA2XD7HIvYVsrdUMU.webp',
+    'house': 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=400&h=300&fit=crop',
     'company': 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop',
     'childcare': 'https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=400&h=300&fit=crop',
     'hero': 'https://images.unsplash.com/photo-1531973576160-7125cd663d86?w=800&h=500&fit=crop',
