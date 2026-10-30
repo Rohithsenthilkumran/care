@@ -18,7 +18,7 @@ const img = id => {
     'g-yoga': '/assets/images/group-of-people-with-arms-raised-in-yoga-position.webp',
     'g-chess': 'https://images.unsplash.com/photo-1529699211952-734e80c4d42b?w=400&h=300&fit=crop',
     'g-music': 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&h=300&fit=crop',
-    'e-diwali': '/assets/images/diwili.jpg',
+    'e-diwali': 'https://pikbest.com/photo/family-diwali-celebration-with-sparklers-and-lights-outdoors-at-night_11980941.html',
     'e-music': 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=400&h=300&fit=crop',
     'e-art': 'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=400&h=300&fit=crop',
     'e-yoga': 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=400&h=300&fit=crop',
