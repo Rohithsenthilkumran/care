@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home – CARE: Because We Care</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-root="" data-page="home">
+<main id="main">
+<section class="hero"><div class="wrap hero-grid">
+  <div>
+    <h1>Friendly help, right in your neighbourhood</h1>
+    <p><strong>CARE – Because We Care</strong> provides elderly assistance and flexible childcare through trusted, trained CARE Fellows in your neighbourhood.</p>
+    <div class="actions">
+      <a class="btn light" href="pages/services.html">🤝 GET HELP</a>
+      <a class="btn light" href="pages/community.html">👥 CONNECT WITH COMMUNITY</a>
+      <a class="btn light" href="pages/events.html">🎉 JOIN ACTIVITIES</a>
+    </div>
+    <a class="btn" style="background:#ffc531;color:#10243f;border-color:#fff" href="tel:+918000000000">📞 Call CARE</a>
+  </div>
+  <img src="assets\images\360_F_75313743_1OvzjuLMZRbRwMGuA2XD7HIvYVsrdUMU.webp" alt="Illustration of two elderly people smiling together outdoors">
+</div></section>
+<section><div class="wrap">
+  <h2>What is CARE?</h2>
+  <p style="max-width:760px">CARE provides elderly assistance and flexible childcare services through trained CARE Fellows and local operations hubs. Starting in five Bengaluru neighbourhoods: HSR Layout, Koramangala, Bellandur, Indiranagar and Whitefield.</p>
+</div></section>
+<section style="background:#fff"><div class="wrap">
+  <div class="section-title"><h2>Featured services</h2><a class="btn alt" href="pages/services.html">See all services</a></div>
+  <div class="grid" id="featuredGrid"></div>
+</div></section>
+<section><div class="wrap">
+  <div class="section-title"><h2>Monthly check-in plans</h2><a class="btn alt" href="pages/services.html#plans">Compare in detail</a></div>
+  <div class="grid" id="planGrid"></div>
+</div></section>
+<section style="background:#fff"><div class="wrap">
+  <div class="section-title"><h2>Upcoming community events</h2><a class="btn alt" href="pages/events.html">See all events</a></div>
+  <div class="grid" id="homeEvents"></div>
+</div></section>
+
+<dialog id="bookDlg">
+  <h2>Complete Your Booking</h2>
+  <form id="bookForm">
+    <label for="bkDate">Date</label>
+    <input type="date" id="bkDate" name="date" required>
+    <label for="bkTime">Time</label>
+    <input type="time" id="bkTime" name="time" required min="07:00" max="20:00" value="10:00">
+    <p class="notice">Your booking:</p>
+    <ul id="bkSummary" class="list-clean"></ul>
+    <div class="dlg-actions">
+      <button type="button" class="btn alt" id="dlgBack">Back to Cart</button>
+      <button type="submit" class="btn">Confirm Booking</button>
+    </div>
+  </form>
+</dialog>
+<section style="background:#fff"><div class="wrap">
+  <h2>Contact CARE</h2>
+  <div class="panel">
+    <p><strong>Phone:</strong> +91 80000 00000</p>
+    <p><strong>Email:</strong> hello@care-hub.com</p>
+    <a class="btn" href="pages/contact.html">Go to Contact page</a>
+  </div>
+</div></section>
+</main>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

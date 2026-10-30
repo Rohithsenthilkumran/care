@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Events – CARE: Because We Care</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-root="../" data-page="events">
+<main id="main">
+<div class="page-head"><div class="wrap"><h1>🎉 Upcoming Events</h1><p>Join us at a CARE Hub near you.</p></div></div>
+<section><div class="wrap"><div class="section-title"><h2>All Events</h2><button class="btn" id="addEventBtn">➕ Add New Event</button></div><div class="grid" id="eventGrid"></div></div></section>
+</main>
+
+<dialog id="addEventDlg">
+  <h2>Add New Event</h2>
+  <form id="addEventForm">
+    <label for="evName">Event Name</label>
+    <input type="text" id="evName" name="name" required placeholder="e.g., Music Evening">
+    
+    <label for="evDate">Date</label>
+    <input type="date" id="evDate" name="date" required>
+    
+    <label for="evVenue">Venue</label>
+    <input type="text" id="evVenue" name="venue" required placeholder="e.g., CARE Hub, Indiranagar">
+    
+    <label for="evDesc">Description</label>
+    <textarea id="evDesc" name="desc" required rows="3" placeholder="Describe the event..."></textarea>
+    
+    <div class="dlg-actions">
+      <button type="button" class="btn alt" id="dlgCancel">Cancel</button>
+      <button type="submit" class="btn">Add Event</button>
+    </div>
+  </form>
+</dialog>
+<script src="../js/data.js"></script>
+<script src="../js/app.js"></script>
+</body>
+</html>
